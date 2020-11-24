@@ -20,7 +20,7 @@
     <div class="container">
         <h1 class=" text-center text-3xl font-bold mb-3">Backgrouns</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dolore sunt ab? Rem minus praesentium id harum, aspernatur enim est magni unde necessitatibus! Quidem, totam veniam? Eligendi voluptas similique ad!</p>
-        <div class="imagen bg-cover bg-right border-8 border-black bg">
+        <div class="imagen bg-cover bg-right border-8 border-black bg rounded-full divide-y-0">
 
         </div>
     </div>
