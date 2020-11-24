@@ -10,17 +10,13 @@
 <body>
 
     <div class="container">
-        <div class="grid grid-flow-col grid-rows-3 grid-cols-4">
-            <div class="bg-blue-100">1</div>
-            <div class="bg-blue-200">2</div>
-            <div class="bg-blue-300">3</div>
-            <div class="bg-blue-400">4</div>
-            <div class="bg-blue-500">5</div>
-            <div class="bg-blue-600">6</div>
-            <div class="bg-blue-700">7</div>
-            <div class="bg-blue-800">8</div>
-            <div class="bg-blue-900">9</div>
-        </div>
+        <h1 class="">Este es un titulo de prueba</h1>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptas dolores, odio, perferendis ex eos animi ipsum, nam accusamus similique sequi. Cum ut ab officiis ullam tempore error, quasi dolor?</p>
+        <ul class="grid grid-cols-2 gap-y-4">
+            <li class="">Elemento #01</li>
+            <li class="">Elemento #02</li>
+            <li class="col-span-2">Elemento #03</li>
+        </ul>
     </div>
     
 </body>

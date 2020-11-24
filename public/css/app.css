@@ -885,53 +885,6 @@ video {
   background-color: #f56565;
 }
 
-.btn {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  --bg-opacity: 1;
-  background-color: #f56565;
-  background-color: rgba(245, 101, 101, var(--bg-opacity));
-}
-
-.btn:hover {
-  --bg-opacity: 1;
-  background-color: #e53e3e;
-  background-color: rgba(229, 62, 62, var(--bg-opacity));
-}
-
-.btn {
-  border-radius: 0.5rem;
-  border-style: none;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.btn:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
-.btn {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.btn:focus {
-  box-shadow: 0 0 0 3px #f5656560;
-}
-
-.btn {
-  --text-opacity: 1;
-  color: #ffffff;
-  color: rgba(255, 255, 255, var(--text-opacity));
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-  transition-duration: 100ms;
-}
-
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -24525,6 +24478,29 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+h1{
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  font-size: 1.875rem;
+}
+
+p{
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+li{
+  --bg-opacity: 1;
+  background-color: #e1effe;
+  background-color: rgba(225, 239, 254, var(--bg-opacity));
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  text-align: center;
+  font-style: italic;
 }
 
 @media (min-width: 640px) {
