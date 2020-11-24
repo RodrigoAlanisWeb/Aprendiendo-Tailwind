@@ -588,6 +588,8 @@ video {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 640px) {
@@ -22093,8 +22095,16 @@ video {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.grid-cols-16 {
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+
 .grid-cols-none {
   grid-template-columns: none;
+}
+
+.grid-cols-footer {
+  grid-template-columns: 200px minmax(900px, 1fr) 100px;
 }
 
 .auto-cols-auto {
@@ -24520,6 +24530,8 @@ video {
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -45709,8 +45721,16 @@ video {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+
   .sm\:grid-cols-none {
     grid-template-columns: none;
+  }
+
+  .sm\:grid-cols-footer {
+    grid-template-columns: 200px minmax(900px, 1fr) 100px;
   }
 
   .sm\:auto-cols-auto {
@@ -48071,6 +48091,8 @@ video {
 @media (min-width: 768px) {
   .md\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -69260,8 +69282,16 @@ video {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-none {
     grid-template-columns: none;
+  }
+
+  .md\:grid-cols-footer {
+    grid-template-columns: 200px minmax(900px, 1fr) 100px;
   }
 
   .md\:auto-cols-auto {
@@ -71622,6 +71652,8 @@ video {
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -92811,8 +92843,16 @@ video {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-none {
     grid-template-columns: none;
+  }
+
+  .lg\:grid-cols-footer {
+    grid-template-columns: 200px minmax(900px, 1fr) 100px;
   }
 
   .lg\:auto-cols-auto {
@@ -95173,6 +95213,8 @@ video {
 @media (min-width: 1280px) {
   .xl\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -116362,8 +116404,16 @@ video {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-16 {
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+  }
+
   .xl\:grid-cols-none {
     grid-template-columns: none;
+  }
+
+  .xl\:grid-cols-footer {
+    grid-template-columns: 200px minmax(900px, 1fr) 100px;
   }
 
   .xl\:auto-cols-auto {
