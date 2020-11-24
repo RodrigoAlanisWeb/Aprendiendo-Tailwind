@@ -5,6 +5,9 @@ module.exports = {
         container: {
             center: true
         },
+        fontFamily:{
+            'robo': ['Roboto']
+        },
         extend: {
             colors: {
                 header: '#272f3e',

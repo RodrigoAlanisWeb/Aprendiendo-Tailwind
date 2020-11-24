@@ -6,17 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>Tailwind</title>
+    <style>
+        .imagen{
+            background-image: url("{{ asset('img/firewatch-road-ox-1920x1080.jpg') }}");
+            height: 500px;
+            width: 500px;
+            margin: 0px auto;
+        }
+    </style>
 </head>
 <body>
 
     <div class="container">
-        <h1 class="">Este es un titulo de prueba</h1>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptas dolores, odio, perferendis ex eos animi ipsum, nam accusamus similique sequi. Cum ut ab officiis ullam tempore error, quasi dolor?</p>
-        <ul class="grid grid-cols-2 gap-y-4">
-            <li class="">Elemento #01</li>
-            <li class="">Elemento #02</li>
-            <li class="col-span-2">Elemento #03</li>
-        </ul>
+        <h1 class=" text-center text-3xl font-bold mb-3">Backgrouns</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dolore sunt ab? Rem minus praesentium id harum, aspernatur enim est magni unde necessitatibus! Quidem, totam veniam? Eligendi voluptas similique ad!</p>
+        <div class="imagen bg-cover bg-right border-8 border-black bg">
+
+        </div>
     </div>
     
 </body>
